@@ -1,7 +1,6 @@
 package id.ac.polinema.idealbodyweight.fragments;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -41,7 +40,7 @@ public class BrocaIndexFragment extends Fragment {
         final RadioGroup genderGroup = view.findViewById(R.id.group_gender);
         final EditText heightText  = view.findViewById(R.id.input_height);
 
-        Button calculateButton = view.findViewById(R.id.button_calculate);
+        Button calculateButton = view.findViewById(R.id.button_calculate2);
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
